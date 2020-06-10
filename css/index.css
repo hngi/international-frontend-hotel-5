@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    cursor: pointer;
+}
+
+body {
+    background-size: cover;
+    background-image: url('/images/bg-wave.jpg');
+    background-repeat: no-repeat;
+    background-position: cover bottom;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+
+/*The Showcase Area*/
+#showcase-text{
+
+    padding-top: 100px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 75px;
+    color:#8394AA;
+}
+#showcase-text p{
+    margin-left: 100px;
+}
+
+
+
+/*Explore section*/
+#explore-section{
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width:90%;
+    left: 150px;
+    top: 123px;
+
+    background: rgba(48, 70, 89, 0.45);
+}
+
+#explore-section p{
+    margin-right: 20px;
+    margin-top: 50px;
+
+}
+
+.image-container{
+    display: flex;
+}
+
+.beach-house{  
+    margin:19px 19px 40px 50px;  
+    width: 166px;
+    height: 100px;
+}
+
+/* Making the pages Responsive */
+@media(max-width:600px){
+    #explore-section{
+        flex-direction: column;
+        left: 0px;
+        right:0px;
+        width: 100%;
+        top: 50px;
+    }
+    body{
+        overflow: auto;
+    }
+  }
