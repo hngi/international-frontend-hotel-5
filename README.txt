@@ -18,3 +18,5 @@ The website contains 5 pages :
     3.Facilities page.
     4.Contact Us page.
     5.About Us page.
+
+Link to website: https://international-frontend-hotel-5.now.sh/ 
